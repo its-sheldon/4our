@@ -1,0 +1,68 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+body {
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.quote {
+  position: relative;
+  top: 40vh;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.obi-wan {
+  right: 0;
+  bottom: 0;
+}
+
+.obi-wan img {
+  position: relative;
+  left: 50%;
+  max-width: 50%;
+}
+
+@media (min-width: 576px) {
+  .quote {
+    position: relative;
+    top: 45vh;
+    font-weight: 300;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  .quote {
+    position: relative;
+    top: 45vh;
+    font-weight: 300;
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 768px) {
+  .obi-wan img {
+    position: relative;
+    left: 35%;
+    max-width: 65%;
+  }
+}
+
+@media (min-width : 0px) and (max-width : 767px) and (orientation : landscape) {
+  .obi-wan {
+    display: none;
+  }
+}
+
+@media only screen and (min-width : 811px) and (max-width : 812px) {
+  .obi-wan {
+    display: none;
+  }
+}
